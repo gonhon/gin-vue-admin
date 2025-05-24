@@ -1,9 +1,10 @@
 package global
 
 import (
+	"sync"
+
 	"github.com/gin-gonic/gin"
 	"github.com/qiniu/qmgo"
-	"sync"
 
 	"github.com/flipped-aurora/gin-vue-admin/server/utils/timer"
 	"github.com/songzhibin97/gkit/cache/local_cache"
